@@ -6,29 +6,42 @@
     <title>rodando con manu - la mejor variedad en patines</title>
 </head>
 <link rel="shortcut icon" href="../img/foto favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="../css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/style.css"> 
 <body class="bg-fondo">
-    <!-- starts nav -->
-    <nav class="menu">
-        <a href="../index.html">
-            <img class="img-menu" src="../img/foto con el logo.jpg" alt="logo de rodando con manu">
-        </a>
-        <ul>
-            <li>
-                <a href="../pages/patines.html">patines</a>
-            </li>
-            <li>
-                <a href="../pages/accesorios.html">accesorios</a>
-            </li>
-            <li>
-                <a href="../pages/contacto.html">contacto</a>
-            </li>
-            <li>
-                <a href="../pages/nosotros.html">nosotros</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- ends nav -->
+  <!-- start nav -->
+    <nav class="navbar navbar-expand-lg menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"> 
+            <img src="../img/foto con el logo.jpg" alt="logo rodando con manu">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/patines.html">patines</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/accesorios.html">accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">nosotros</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- ends nav -->
     <!-- starts header -->
     <header>
         <img class="img-header" src="../img/foto header patines.jpg" alt="chicos andando en rollers para carrera">
@@ -41,80 +54,100 @@
 <main>
     <section class="section-products">
         <figure class="patines-one">
-            <figcaption>powerslide next</figcaption>
+            <figcaption class="text-img">powerslide next black red 80</figcaption>
                 <img class="products-img" src="../img/patin 1.jpg" alt="roller freeskate marca powerslide nex negro con detalles en rojo y ruedas 80mm">
-                <p></p>
-                <a href="#">comprar</a>
+                <p class="text">La serie Next de Powerslide se caracteriza por ofrecer patines en línea de alto rendimiento y versatilidad, adecuados para diferentes disciplinas de patinaje, como freeskate, slalom, y patinaje urbano. Estos patines suelen destacar por su calidad de construcción, diseño innovador y características técnicas avanzadas.</p>
+                <div class="comprar">
+                      <a href="#">$250.000</a>
+                </div>
         </figure>
         <figure class="patines-one">
-            <figcaption>powerslide imperial</figcaption>
+            <figcaption class="text-img">powerslide imperial azul glow im the dark</figcaption>
             <img  class="products-img" src="../img/patin 2.jpg" alt="roller freeskate marca powerslide imperial en color celeste con ruedas de 110mm">
-            <p></p>
-            <a href="#">comprar</a>
+            <p class="text">Este patín es la opción obvia si buscas acción, diversión y quieres ser visto en la oscuridad. El patín viene con ruedas de 3x110mm, la configuración de Triskate más popular de Powerslide. Las ruedas rápidas y con agarre Powerslide Megacruiser de 110mm / 86A y los rodamientos de freespin Wicked ABEC 9 harán que tu corazón se acelere. La carcasa rígida rígida montada en la guía de aluminio Unity fue diseñada teniendo en cuenta el transporte y el patinaje urbano.</p>
+            <a class="button-text" href="#">$155.000</a>
         </figure>
         <figure class="patines-one">
-            <figcaption>powerslide imperial</figcaption>
+            <figcaption class="text-img">powerslide imperial jade 80</figcaption>
             <img  class="products-img" src="../img/patin 3.jpg" alt="roller freeskate marca powerslide imperial color aquamarine con ruedas de 80mm">
-            <p></p>
-            <a href="#">comprar</a>
+            <p class="text">El Powerslide Imperial Jade es un patín de freeskate que brilla en la oscuridad y que ofrece una configuración urbana de 10. Formado con el botín Fat Boy de Myfit termomoldeable para que se ajusten perfectamente a tu forma de pie. Con las guias Spider de aluminio 243mm tendrás la mejor transferencia de potencia y maniobrabilidad. Además para completar este modelo monta las ruedas Spinner 80mm 85A y rodamientos Wicked ABEC 7. Sin duda si buscas un patín versátil este es el tuyo. </p>
+            <a class="button-text" href="#">$200.000</a>
         </figure>
         <figure class="patines-one">
-            <figcaption>powerslide next whit</figcaption>
+            <figcaption class="text-img">powerslide next black-whit 80</figcaption>
             <img  class="products-img" src="../img/patin 4.jpg" alt="roller freeskate marca powerslide next color blanco con detalle en ngro con ruedas de 80mm">
-            <p></p>
-            <a href="#">comprar</a>
+            <p class="text">La serie Next de Powerslide se caracteriza por ofrecer patines en línea de alto rendimiento y versatilidad, adecuados para diferentes disciplinas de patinaje, como freeskate, slalom, y patinaje urbano. Estos patines suelen destacar por su calidad de construcción, diseño innovador y características técnicas avanzadas.</p>
+            <a class="button-text" href="#">$250.000</a>
         </figure>
         <figure class="patines-one">
-            <figcaption>patin micro</figcaption>
+            <figcaption class="text-img">patin micro black 80</figcaption>
             <img  class="products-img" src="../img/patin 5.jpg" alt="roller freeskate marca micro color negro con detalle en rosa con ruedas de 80mm">
-            <p></p>
-            <a href="#">comprar</a>
+            <p class="text">Uno de los patines freestyle favoritos del mercado. Lo mejor para FREESKATE y SLALOM.Baleros fuertes: Abec 7, bueno para cualquier carga y saltos en la ciudad con buena velocidad también. Cualquier campeón de la ciudad les encantaría.Maximo control de arranque . Los cordones van desde los dedos de los pies hasta la parte superior, el talón y las hebillas de metal superiores.La bota interna es formable a tu pie después de algunas horas de patinaje.</p>
+            <a class="button-text" href="#">$100.000</a>
         </figure>
         <figure class="patines-one">
-            <figcaption>powerslide carrera 125mm</figcaption>
-            <img  class="products-img" src="../img/patin 6.jpg" alt="roller de carrera en color negro con ruedas de 125mm marca powerslide">
-            <p></p>
-            <a href="#">comprar</a>
+            <figcaption class="text-img">rollerblade E2 110</figcaption>
+            <img  class="products-img" src="../img/patin 6.jpg" alt="roller de carrera en color negro con ruedas de 125mm marca rollerblade">
+            <p class="text">Patines de alta velocidad para los entusiastas del fitness y los corredores que buscan entrenar, hacer ejercicio o simplemente avanzar su técnica. Este patín único y versátil puede ser un perfil medio o un patín de velocidad de perfil bajo con soporte completo</p>
+            <a class="button-text" href="#">$300.000</a>
         </figure>
         <figure class="patines-one">
-            <figcaption>rollerblade</figcaption>
+            <figcaption class="text-img">rollerblade cruiser negro/aqua azul</figcaption>
             <img  class="products-img" src="../img/patin 7.jpg" alt="roller freeskate marca rollerblade negro con freno y ruedas en 80mm">
-            <p></p>            
-            <a href="#">comprar</a>
+            <p class="text">RB Cruiser es un patín urbano diseñado para maniobras duras y rápidas. Las botas moldeadas RB son duraderas en todos los entornos de patinaje y cuentan con cuatro ruedas de perfil urbano de 80 mm/85a y rodamientos SG7 para mayor control, estabilidad y velocidad. </p>            
+            <a class="button-text" href="#">$60.000</a>
         </figure>
         <figure class="patines-one">
-            <figcaption>powerslide next 125mm</figcaption>
+            <figcaption class="text-img">powerslide next navy 125</figcaption>
             <img  class="products-img" src="../img/patin 8.jpg" alt="roller freeskate powerslide nex en color azul oscuro con ruedas de 125mm">
-            <p></p>
-            <a href="#">comprar</a>
+            <p class="text">La serie Next de Powerslide se caracteriza por ofrecer patines en línea de alto rendimiento y versatilidad, adecuados para diferentes disciplinas de patinaje, como freeskate, slalom, y patinaje urbano. Estos patines suelen destacar por su calidad de construcción, diseño innovador y características técnicas avanzadas.</p>
+            <a class="button-text" href="#">$285.000</a>
         </figure>
         <figure class="patines-one">
-            <figcaption>rollerblade twister</figcaption>
+            <figcaption class="text-img">rollerblade twister 110</figcaption>
             <img  class="products-img" src="../img/foto patin 9.jpg" alt="roller freeskate marca rollerblade twister en color blanco y negro con ruedas de 110mm">
-            <p></p>
-            <a href="#">comprar</a>
+            <p class="text">Descripción Los patines freeskate Twister Edge de Rollerblade tienen una relación precio-rendimiento realmente buena. Si buscas unos patines ágiles y maniobrables para el slalom y el freeskating urbano, estos patines podrían ser para ti. Estos patines freeskate de Rollerblade vienen equipados con una bota dura de calidad.</p>
+            <a class="button-text" href="#">210.000</a>
         </figure>
     </section>
 </main>
 <footer class="footer">
     <div>
-        <a href="https://instagram.com" target="_blank">
-            <img class="icon-social" src="../img/icono instagram.png" alt="seguinos en instagram">
+        <a href="https://instagram.com">
+          <img class="icon-social" src="../img/icono instagram.png" alt="seguinos en insatgram">
         </a>
-        <a href="https://facebook.com" target="_blank">
-             <img class="icon-social" src="../img/icono facebook.png" alt="segunos en facebook">
+        <a href="https://facebook.com">
+          <img class="icon-social" src="../img/icono facebook.png" alt="seguinos en facebook">
         </a>
-        <a href="https://youtube.com" target="_blank">
-             <img class="icon-social" src="../img/Logotipo-rojo-de-YouTube.png" alt="suscribite a nuestro canal de youtube y mira todos los videos tutoriales para que puedas aprender desde tu casa">
+        <a href="https://youtube.com">
+          <img class="icon-social" src="../img/Logotipo-rojo-de-YouTube.png" alt="suscribite a nuestro canal de youtube y mira todos los videos tutoriales para que puedas aprender desde tu casa">
         </a>
     </div>
-    <div>
-        <a href="#">politica de privaciidad</a>
-        <a href="#">terminos y condiciones</a>
-    </div>
-    <div>
-        <a href="#">trabaja con nosotros</a>
-    </div>
+    <section class="contenedor">
+      <div class="div1">
+        <h3>contacto</h3>
+        <a href="#">tel: 11983765663</a>
+        <a href="#">rodandoconmanu@gmail.com</a>
+        <a href="#">horarios de atencion</a>
+        <p>lunes a vierde 10Am a 19pm</p>
+      </div>
+      <div class="div2">
+        <h3>categorias principales</h3>
+        <a href="#">patines Freeskate</a>
+        <a href="#">patines salalom</a>
+        <a href="#">patines agresiv</a>
+        <a href="#">patines fitnes</a>
+        <a href="#">patines carrera</a>
+      </div>
+      <div  class="div2">
+        <h3>marcas destacadas</h3>
+        <a href="https://rollerblade.com" target="_blank">rollerblade</a>
+        <a href="https://powerslide.com" target="_blank">poweslide</a>
+        <a href="https://frskates.com" target="_blank">FrSkates</a>
+
+      </div>
+    </section>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
